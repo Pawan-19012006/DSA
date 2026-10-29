@@ -11,6 +11,8 @@
 // Input: s = ["H","a","n","n","a","h"]
 // Output: ["h","a","n","n","a","H"]
 
+// https://leetcode.com/problems/reverse-string/description/
+
 class Solution {
     public void reverseString(char[] s) {
         swap(s, 0); //giving just the string and the initial i value to the function
